@@ -1,0 +1,19 @@
+<Categoria title='Nutrición' description='Los mejores productos naturales para tu salud' />
+
+subcategoria snacks 
+subcategoria suplementos
+                
+<Categoria title='Belleza' description='Productos 100% veganos no testeamos en animales'/>
+
+subcategoria Cuidado Solar
+subcategoria Maquillaje
+
+<Categoria title='Hogar' description='El medio ambiente en tu hogar'/>
+
+subcategoria Lavanderia
+subcategoria desinfectantes
+
+<Categoria title='Cuidado Personal' description='Cuidate a ti mismo asi como cuidas a la naturaleza'/>
+
+subcategoria cuidado de la piel
+subcategoria aseo personal

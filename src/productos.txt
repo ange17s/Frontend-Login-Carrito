@@ -1,0 +1,33 @@
+<Categoria title='Nutrición 100' description='Los mejores productos naturales para tu salud' />
+
+subcategoria snacks 110 galletas sin azucar 001
+subcategoria suplementos 120 ensure 002
+                
+<Categoria title='Belleza 200' description='Productos 100% veganos no testeamos en animales'/>
+
+subcategoria Cuidado Solar 210 protector solar 003
+subcategoria Maquillaje 220 base 004
+
+<Categoria title='Hogar 300' description='El medio ambiente en tu hogar'/>
+
+subcategoria Lavanderia 310 suavizante 005
+subcategoria desinfectantes 320 clorox 006
+ 
+<Categoria title='Cuidado Personal 400' description='Cuidate a ti mismo asi como cuidas a la naturaleza'/>
+
+subcategoria cuidado de la piel 410  gel hidratante 007
+subcategoria aseo personal 420 jabon corporal 008
+
+if(productInCartIndex >= 0){
+            const newCart = [...cart]
+            newCart[productInCartIndex].quantity += 1
+            setCart(newCart)
+        }else{
+        // si el producto no esta en el carrito
+        setCart(prevState => ([
+            ...prevState,
+            {
+                ...product, quantity:1
+            }])
+
+        )}

@@ -1,0 +1,111 @@
+{
+    "products":[
+        {
+            "producto_pk": 1,
+            "nombre_producto":"Galletas sin azucar",
+            "precio_producto":3000,
+            "stock":50,
+            "categoria_pk":100,
+            "nombre_categoria":"Nutrición",
+            "subcategoria_pk":110,
+            "nombre_subcategoria":"Snacks",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/79/17/c6/7917c61d83a89d62266a4321c69270c8.jpg"]
+        },
+        {
+            "producto_pk":2,
+            "nombre_producto":"Ensure Advance",
+            "precio_producto":32000,
+            "stock":54,
+            "categoria_pk":100,
+            "nombre_categoria":"Nutrición",
+            "subcategoria_pk":120,
+            "nombre_subcategoria":"Suplementos",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/83/cc/62/83cc621d700f164bc5ed5ae00215da42.jpg"]
+        },
+        {
+            "producto_pk":3,
+            "nombre_producto":"Protector Solar",
+            "precio_producto":80000,
+            "stock":35,
+            "categoria_pk":200,
+            "nombre_categoria":"Belleza",
+            "subcategoria_pk":210,
+            "nombre_subcategoria":"Cuidado Solar",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/10/27/83/1027832d34f7cc9980ab56b2a559fbf1.jpg"]
+        },
+        {
+            "producto_pk":4,
+            "nombre_producto":"Base Liquida",
+            "precio_producto":75000,
+            "stock":42,
+            "categoria_pk":200,
+            "nombre_categoria":"Belleza",
+            "subcategoria_pk":220,
+            "nombre_subcategoria":"Maquillaje",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/5a/cd/c5/5acdc5afd9c1094132a32397164f632d.jpg"]
+        },
+        {
+            "producto_pk":5,
+            "nombre_producto":"Suavizante",
+            "precio_producto":45000,
+            "stock":51,
+            "categoria_pk":300,
+            "nombre_categoria":"Hogar",
+            "subcategoria_pk":310,
+            "nombre_subcategoria":"Lavanderia",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/c2/31/ab/c231ab2f214c89f9a79cf7891107ad48.jpg"]
+        },
+        {
+            "producto_pk":6,
+            "nombre_producto":"Toallitas limpiadoras",
+            "precio_producto":30000,
+            "stock":75,
+            "categoria_pk":300,
+            "nombre_categoria":"Hogar",
+            "subcategoria_pk":320,
+            "nombre_subcategoria":"Desinfectantes",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/1d/98/16/1d981690c68db5792d6d90268df80c0a.jpg"]
+        },
+        {
+            "producto_pk":7,
+            "nombre_producto":"Gel Hidratante",
+            "precio_producto":37000,
+            "stock":54,
+            "categoria_pk":400,
+            "nombre_categoria":"Cuidado Personal",
+            "subcategoria_pk":410,
+            "nombre_subcategoria":"Cuidado de la piel",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/65/c3/ff/65c3ff163677343bb17dff1d2ec28230.jpg"]
+        },
+        {
+            "producto_pk":8,
+            "nombre_producto":"Jabon Corporal",
+            "precio_producto":30000,
+            "stock":8,
+            "categoria_pk":400,
+            "nombre_categoria":"Cuidado Personal",
+            "subcategoria_pk":420,
+            "nombre_subcategoria":"Aseo personal",
+            "region_pk":"Region-Andina",
+            "pais_pk":"Colombia",
+            "images": ["https://i.pinimg.com/564x/73/c4/6f/73c46ff246d9c4b7e524ea2872260289.jpg"]
+        }
+    ],
+    "total": 8,
+    "skip":0,
+    "limit":8
+}
